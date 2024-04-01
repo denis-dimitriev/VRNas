@@ -1,0 +1,128 @@
+@import 'modern-normalize/modern-normalize.css';
+@import "vars";
+@import "mixins";
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("src/assets/fonts/ChakraPetch-Light.ttf");
+  font-weight: $L;
+}
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("src/assets/fonts/ChakraPetch-Medium.ttf");
+  font-weight: $M;
+}
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("src/assets/fonts/ChakraPetch-Regular.ttf");
+  font-weight: $R;
+}
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("src/assets/fonts/ChakraPetch-SemiBold.ttf");
+  font-weight: $SB;
+}
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("src/assets/fonts/ChakraPetch-Bold.ttf");
+  font-weight: $B;
+}
+
+body {
+  font-family: "Chakra Petch", serif;
+}
+
+.heading-1 {
+  @include text-style(64px, $SB, normal)
+}
+
+.heading-2 {
+  @include text-style(48px, $SB, 58px)
+}
+
+.heading-3 {
+  @include text-style(40px, $SB, 58px)
+}
+
+.heading-4 {
+  @include text-style(36px, $M, 44px)
+}
+
+.heading-5 {
+  @include text-style(32px, $SB, normal)
+}
+
+.heading-6 {
+  @include text-style(28px, $SB, normal)
+}
+
+.heading-7 {
+  @include text-style(20px, $R, normal)
+}
+
+.heading-8 {
+  @include text-style(20px, $M, normal)
+}
+
+.heading-9 {
+  @include text-style(18px, $R, normal)
+}
+
+.heading-10 {
+  @include text-style(16px, $SB, 28px)
+}
+
+.heading-11 {
+  @include text-style(16px, $SB, normal)
+}
+
+.heading-12 {
+  @include text-style(14px, $R, normal)
+}
+
+.body-1 {
+  @include text-style(18px, $L, 28px)
+}
+
+.body-2 {
+  @include text-style(14px, $R, 28px)
+}
+
+.body-3 {
+  @include text-style(16px, $R, 28px)
+}
+
+.body-4 {
+  @include text-style(12px, $R, 20px)
+}
+
+.caption-1 {
+  @include text-style(16px, $M, normal)
+}
+
+.caption-2 {
+  @include text-style(14px, $M, 20px)
+}
+
+.caption-3 {
+  @include text-style(10px, $M, 14px)
+}
+
+.button-1 {
+  @include text-style(14px, $B, 14px)
+}
+
+.button-1 {
+  @include text-style(14px, $L, 14px)
+}
+
+.linear {
+  background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+}
+
+
+
